@@ -9,11 +9,11 @@ module app {
         app: ng.IModule;
         static $inject = ["ngRoute"]
         
-        constructor(name:string, modules: Array<string> ){
-            this.app = angular.module(name, modules);
+        constructor(name:string, modules: Array<string> ) {
+            this.app = angular.module( name, modules );
         }
         
-        addController( name: string, controller ){
+        addController( name: string, controller ) {
             this.app.controller( name, controller )
         }
 
@@ -22,8 +22,8 @@ module app {
 
         }        
 
-        addComponent(name: string, component){
-            this.app.component(name, component);
+        addComponent(name: string, component) {
+            this.app.component( name, component );
         }
 
         config(){

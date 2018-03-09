@@ -50,22 +50,3 @@ module MyTestApp {
     myApp.config();
     myApp.addComponent('mainComponent', new MainComponent);
 }
-
-
-// TABS
-// tabs-component holding tab-component
-
-
-// TABS
-/*
-- Get width container div
-- ng-repeat for items in array, creating tab for each
-- Full length of all tabs, overflow-x hidden?
-
-*/ 
-
-// TAB
-/*
-- 
-
-*/
